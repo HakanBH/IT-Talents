@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename local variable &apos;newWord&apos; in &apos;Task6.main(...)&apos; to &apos;word&apos;&#x0D;&#x0A;- Original project: &apos;Homework5-Strings,Functions&apos;&#x0D;&#x0A;- Original element: &apos;Task6.main(String[]).newWord&apos;&#x0D;&#x0A;- Renamed element: &apos;newWord&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;newWord&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Task6.java[Task6~main~\[QString;@newWord!259!288!266!272!QString;!0!false" name="word" references="true" stamp="1447585175175" version="1.0"/>
-</session>

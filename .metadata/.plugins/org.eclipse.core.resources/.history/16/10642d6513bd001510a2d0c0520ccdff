@@ -1,9 +1,0 @@
-
-public interface Example {
-	void doNothing();
-	void doSomethind();
-}
-
-interface Second {
-	void doNothing();
-}

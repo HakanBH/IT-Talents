@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move package &apos;war_cardGame&apos; to &apos;Tasks/src&apos;&#x0D;&#x0A;- Original project: &apos;WarGame&apos;&#x0D;&#x0A;- Destination element: &apos;Tasks/src&apos;&#x0D;&#x0A;- Original element: &apos;WarGame/src/war_cardGame&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=Tasks/src" element1="/src&lt;war_cardGame" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1458385627408" version="1.0"/>
-</session>

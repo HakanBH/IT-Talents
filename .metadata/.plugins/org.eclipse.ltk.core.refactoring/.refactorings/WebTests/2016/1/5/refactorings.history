@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move &apos;NewFile.html, video.html, WengerOnCohesion.html&apos; to &apos;WebContent&apos;" description="Move 3 resources to &apos;WebContent&apos;" destination="WebContent" element1="/Website/WebContent/NewFile.html" element2="/Website/WebContent/video.html" element3="/Website/WebContent/WengerOnCohesion.html" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="3" stamp="1454076863664" updateReferences="true"/>
-</session>

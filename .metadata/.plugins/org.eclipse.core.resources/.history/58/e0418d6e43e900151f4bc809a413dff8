@@ -1,4 +1,0 @@
-<select name="model" class="w145" style="font-size:12px;">
-    <option value="">всички
-
-  </option><option value="Integra">Integra</option><option value="Mdx">Mdx</option><option value="Rl">Rl</option><option value="Rsx">Rsx</option><option value="Slx">Slx</option><option value="Tl">Tl</option><option value="Tsx">Tsx</option></select>

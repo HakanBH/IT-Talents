@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<modules>
-  <module moduleId="org.eclipse.jst.jee.server:Test" serverId="Tomcat v8.0 Server at localhost"/>
-  <module moduleId="org.eclipse.jst.jee.server:Website"/>
-  <module moduleId="org.eclipse.jst.jee.server:Project" serverId="Tomcat v8.0 Server at localhost"/>
-  <module moduleId="org.eclipse.jst.jee.server:Mobile.bg" serverId="Tomcat v8.0 Server at localhost"/>
-  <module moduleId="org.eclipse.jst.jee.server:Mobile" serverId="Tomcat v8.0 Server at localhost"/>
-  <module moduleId="org.eclipse.jst.jee.server:ASDASD" serverId="Tomcat v8.0 Server at localhost"/>
-</modules>

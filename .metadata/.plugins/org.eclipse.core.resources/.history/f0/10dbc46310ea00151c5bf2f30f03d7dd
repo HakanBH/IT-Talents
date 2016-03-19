@@ -1,8 +1,0 @@
-package mobile.jdbc;
-
-public interface IAdvertDAO {
-	public abstract int insertAdvert(Advert advert);
-	
-	public abstract int insertVehicle(Vehicle vehicle);
-	
-}

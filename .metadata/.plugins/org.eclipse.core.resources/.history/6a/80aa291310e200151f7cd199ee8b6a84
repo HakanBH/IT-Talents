@@ -1,8 +1,0 @@
-
-public class Employee extends Person{
-
-	public Employee(String name, Double money) {
-		super(name, money);
-	}
-	
-}

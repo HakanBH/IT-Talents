@@ -1,9 +1,0 @@
-
-public interface Harbivore {
-	public void eatPlants();
-}
-
-interface Omnivore {
-	public void eatPlants();
-}
-
