@@ -1,0 +1,46 @@
+import java.util.Random;
+
+public class Client extends Person implements Runnable{
+	private static final int TIME_TO_EAT = 5000;
+	private static final int TIME_TO_CHOOSE_ITEM = 1000;
+	private Restourant restourant;
+	
+	public Client(String name, Double money, Restourant restourant){
+		super(name,money);
+		setRestourant(restourant);
+	}
+
+	@Override
+	public void run() {
+		Random r = new Random();
+		try {
+			Thread.sleep(r.nextInt(TIME_TO_CHOOSE_ITEM));
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		
+		orderSomething();
+	
+	
+		try {
+			Thread.sleep(r.nextInt(TIME_TO_EAT));
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}		
+	}
+	
+	public void orderSomething(){
+		
+	}
+	
+	
+	public Restourant getRestourant(){
+		return restourant;
+	}
+	
+	public void setRestourant(Restourant r){
+		if(r!=null){
+			this.restourant=r;
+		}
+	}	
+}

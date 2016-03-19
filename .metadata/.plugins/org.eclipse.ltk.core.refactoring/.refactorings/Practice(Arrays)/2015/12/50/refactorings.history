@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 7 elements to &apos;Practice/src/arrays&apos;&#x0D;&#x0A;- Original project: &apos;Practice(Arrays)&apos;&#x0D;&#x0A;- Destination element: &apos;Practice/src/arrays&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Zad6.java&#x0D;&#x0A;     Zad1.java&#x0D;&#x0A;     Zad2.java&#x0D;&#x0A;     Zad3.java&#x0D;&#x0A;     Zad7.java&#x0D;&#x0A;     Zad4.java&#x0D;&#x0A;     Zad5.java" description="Copy compilation units" destination="=Practice/src&lt;arrays" element1="/src&lt;{Zad6.java" element2="/src&lt;{Zad1.java" element3="/src&lt;{Zad2.java" element4="/src&lt;{Zad3.java" element5="/src&lt;{Zad7.java" element6="/src&lt;{Zad4.java" element7="/src&lt;{Zad5.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1449831776791" units="7" version="1.0"/>
+</session>

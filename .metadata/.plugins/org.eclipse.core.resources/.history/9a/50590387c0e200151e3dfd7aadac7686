@@ -1,0 +1,7 @@
+package Court;
+
+public interface IJurist {
+	
+	void askQuestion(Citizen c);
+	void takeNotes();
+}

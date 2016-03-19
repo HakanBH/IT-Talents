@@ -1,0 +1,27 @@
+import java.util.*;
+
+public class Demo {
+	private String name="asd";
+	static int a;
+	
+	public void Demo(){
+		System.out.println("Asdsad");
+	}
+	
+	public static void main(String[] args) {
+		Demo a = new Demo();
+		System.out.println(a.name);
+		System.out.println(a);
+		a.name.length();
+		String n = "Asd";
+		n.length();
+	
+		a.Demo();
+		
+		byte x = 5;
+		byte y = 10;
+		byte z = (x + y);
+	}
+	
+	
+}

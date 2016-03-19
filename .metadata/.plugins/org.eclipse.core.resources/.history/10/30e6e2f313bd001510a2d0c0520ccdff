@@ -1,0 +1,7 @@
+
+public interface Harbivore {
+	public int eatPlants();
+}
+public interface Omnivore {
+	public void eatPlants();
+}

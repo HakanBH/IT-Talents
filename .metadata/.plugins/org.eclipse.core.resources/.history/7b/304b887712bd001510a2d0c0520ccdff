@@ -1,0 +1,19 @@
+
+interface Example {
+	public void doNothing();
+}
+
+interface Other{
+	public void doNothind();
+}
+
+interface Third extends Other,Example{
+	
+}
+
+class MyClass implements Example, Other{
+	@Override
+	public void doNothind() {
+		
+	}
+}

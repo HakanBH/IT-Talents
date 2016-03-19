@@ -1,0 +1,6 @@
+package Court;
+
+public interface ICase {
+	void increaseCasesOfAll();
+	void conduct();
+}

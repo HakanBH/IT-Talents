@@ -1,0 +1,6 @@
+package mobile.jdbc;
+
+public interface IAdvertDAO {
+	public abstract int newAdvert(Advert advert);
+	
+}

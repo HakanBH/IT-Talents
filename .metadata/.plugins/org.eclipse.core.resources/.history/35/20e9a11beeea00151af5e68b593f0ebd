@@ -1,0 +1,74 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<title>Mobile.bg - Пазарът за автомобили в България.</title>
+ 	<meta http-equiv = "X-UA-Compatible" content = "IE = edge">
+ 	<meta name = "viewport" content = "width = device-width, initial-scale = 1">
+ 
+ 	<script type="text/javascript" src="yoxview/yoxview-init.js"></script>
+  	<script type="text/javascript" src="yoxview/lang/bg.js"></script>
+	<link href = "css/styles.css" rel="stylesheet">
+	<link href = "css/bootstrap.min.css" rel = "stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://jqueryvalidation.org/files/dist/jquery.validate.min.js"></script>
+<script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
+
+
+
+</head>
+<body>
+
+<footer>
+	<div class="container footer-font">	
+		<div class="row">
+			<div class="col-md-3">
+				<h4>За нас</h4>
+				<ul class="list-unstyled">
+					<li><p>&#x27a2;<a href="#"> Условия за ползване</a></p></li>
+					<li><p>&#x27a2;<a href="#"> Поверителност</a></p></li>
+					<li><p>&#x27a2;<a href="#">	Контакти</a></p></li>
+				</ul>
+			</div>
+			
+			<div class="col-md-3">
+				<h4>Kонтакти</h4>
+				<ul class="list-unstyled">
+					<li><p><i class="glyphicon glyphicon-map-marker"></i> <strong>Адрес:</strong> София 1404, бул. “България” №69, ет.14, Infinity Tower</p></li>
+					<li><p><i class="glyphicon glyphicon-envelope"></i> <strong>Email:</strong> hakan.hyusen94@gmail.com </p></li>
+					<li><p><i class="glyphicon glyphicon-globe"></i> <strong>Website:</strong> <a href="#">www.jiguili.bg</a></p></li>
+				</ul>
+			</div>
+			
+			<div class="col-md-3">
+				<h4>Друго</h4>
+				<ul class="list-unstyled">
+					<li><p>&#x27a2; <a href="#"> Форум</a></li>
+					<li><p>&#x27a2; <a href="#"> FAQ's</a></p></li>
+					<li><p>&#x27a2; <a href="#"> Помощ</a></p></li>
+				</ul>
+			</div>
+			
+			<div class="col-md-3">
+				<h4>Посетете също</h4>
+				<ul class="list-unstyled">
+					<li><p>&#x27a2;<a href="http://automedia.investor.bg/"> Automedia.bg</a></p></li>
+					<li><p>&#x27a2;<a href="http://www.mobile.bg/"> Mobile.bg</a></p></li>
+					<li><p>&#x27a2;<a href="http://www.topgear.bg/"> Topgear.bg</a></p></li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<p style="text-align: center;"> © Copyright 2016. All rights reserved.</p>	
+		</div>
+	</div>
+</footer>
+	
+</body>
+</html>

@@ -1,0 +1,20 @@
+
+public interface Harbivore {
+	public void eatPlants();
+}
+
+interface Omnivore {
+	public void eatPlants();
+}
+
+class Bear implements Omnivore, Harbivore {
+
+	@Override
+	public void eatPlants() {
+		System.out.println("Eat something");
+	}
+	public static void main(String[] args) {
+		Omnivore x = new Bear();
+		x.eatPlants();
+	}
+}

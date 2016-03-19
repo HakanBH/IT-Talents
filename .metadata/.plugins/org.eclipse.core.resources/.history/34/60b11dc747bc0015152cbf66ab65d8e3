@@ -1,0 +1,21 @@
+import java.util.*;
+
+public class Demo {
+	
+	public void func(int a,int b){
+		System.out.println(a+b);
+	}
+	
+	public static double func(double a){
+		return a;
+	}
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	
+}

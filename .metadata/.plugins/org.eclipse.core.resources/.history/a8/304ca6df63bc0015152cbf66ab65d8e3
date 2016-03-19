@@ -1,0 +1,32 @@
+
+public class Demo {
+	
+	private final static String a;
+	private final static String b;
+	static{
+		a = "a";
+		b="b";
+	}
+	
+	public Demo(){
+	}
+	
+	protected Demo(int x){
+		this();
+	}
+	
+	
+	public static void func(int a, int[] i){
+		System.out.println(i.length);
+	}
+	
+	static double func(int a, double c){
+		return 2.0;
+	}
+	
+	public static void main(String[] args) {
+		int x = 10;
+		long z = x+(long)x;
+	}
+	
+}

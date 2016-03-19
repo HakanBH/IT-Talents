@@ -1,0 +1,58 @@
+package mobile.servlets;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import mobile.jdbc.AdvertDAO;
+import mobile.model.*;
+
+@WebServlet("/PublishVehicle")
+public class PublishVehicle extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	public PublishVehicle() {
+		// TODO Auto-generated constructor stub
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		response.setContentType("text/html; charset=UTF-8");
+		request.setCharacterEncoding("UTF-8");
+
+		String brand = request.getParameter("brand");
+		String model = request.getParameter("model");
+		String engine = request.getParameter("engine");
+		String gearbox = request.getParameter("gearbox");
+		String currency = request.getParameter("currency");
+		int price = Integer.parseInt(request.getParameter("price"));
+		String region = request.getParameter("region");
+		String location = request.getParameter("location");
+		String month = request.getParameter("month");
+		int year = Integer.parseInt(request.getParameter("year"));
+		String color = request.getParameter("color");
+		String number = request.getParameter("number");
+		String email = request.getParameter("email");
+		int power =	Integer.parseInt(request.getParameter("power"));
+		int mileage = Integer.parseInt(request.getParameter("mileage"));
+		String condition = request.getParameter("condition");
+		String subcategory = request.getParameter("subcategory");
+		int validity = Integer.parseInt(request.getParameter("validity"));
+		
+		Vehicle car = new Car(condition, brand, model, currency, color, price, engine, 
+				gearbox, subcategory, mileage, power, year, month); 
+		
+		Advert a = new Advert(car, number, email, region, location, validity);
+				
+		AdvertDAO advertDao = new AdvertDAO();
+		advertDao.insertVehicle(a, car);
+
+	}
+}

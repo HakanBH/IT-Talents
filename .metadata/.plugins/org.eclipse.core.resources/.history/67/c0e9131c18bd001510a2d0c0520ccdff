@@ -1,0 +1,26 @@
+
+public interface Harbivore {
+	public void eatPlants();
+}
+
+interface Omnivore {
+	public void eatPlants();
+	default void func(){
+		System.out.println("Asd");
+	}
+}
+
+class Nqkuf implements Harbivore,Omnivore{
+	@Override
+	public void eatPlants() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	@Override
+	public void func() {
+		super.func();
+		Omnivore.super.func();
+	}
+
+}

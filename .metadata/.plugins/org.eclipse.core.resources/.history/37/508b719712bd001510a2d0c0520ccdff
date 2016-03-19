@@ -1,0 +1,25 @@
+
+interface Example {
+	public void doNothing();
+}
+
+interface Other{
+	public void doNothind();
+	public void doSomethind();
+}
+
+class MyClass implements Example, Other{
+
+	@Override
+	public void doNothind() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void doSomethind() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

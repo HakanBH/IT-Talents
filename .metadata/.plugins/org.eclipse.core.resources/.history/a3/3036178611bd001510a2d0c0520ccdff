@@ -1,0 +1,16 @@
+
+interface Example {
+	public abstract void doNothing();
+}
+
+interface Other{
+	public abstract void doNothind();
+}
+
+interface Third extends Other,Example{
+	
+}
+
+class MyClass implements Example, Other{
+	
+}

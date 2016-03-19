@@ -1,0 +1,77 @@
+import java.util.Random;
+
+public class Citizen implements Runnable{
+	private String firstName;
+	private String lastName;
+	private String address;
+
+	private PostOffice post;
+
+	public Citizen(String firstName, String lastName, String address, PostOffice post) {
+		setFirstName(firstName);
+		setLastName(lastName);
+		setAddress(address);
+		setPost(post);
+	}
+
+	@Override
+	public void run() {
+		Random r = new Random();
+		if(Math.random() > 0.5){
+			//send letter
+			if(Math.random() > 0.5){
+				//send from mailbox
+				
+			}
+			else{
+				//send to post office
+				
+			}
+		}
+		else{
+			//send package
+			
+		}
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public PostOffice getPost() {
+		return post;
+	}
+
+	public void setFirstName(String firstName) {
+		if (firstName != null && !firstName.isEmpty()) {
+			this.firstName = firstName;
+		}
+	}
+
+	public void setLastName(String lastName) {
+		if (lastName  != null && !lastName .isEmpty()) {
+			this.lastName = lastName;
+		}
+	}
+
+	public void setAddress(String address) {
+		if (address != null && !address.isEmpty()) {
+			this.address = address;
+		}
+	}
+
+	public void setPost(PostOffice post) {
+		if (post!= null) {
+			this.post = post;
+		}
+	}
+
+}

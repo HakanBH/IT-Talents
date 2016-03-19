@@ -1,0 +1,14 @@
+
+public interface Harbivore {
+	public void eatPlants();
+}
+
+interface Omnivore {
+	public void eatPlants();
+}
+
+class Bear implements Omnivore, Harbivore {
+
+	
+
+}

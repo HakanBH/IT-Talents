@@ -1,0 +1,20 @@
+public interface Example {
+	void doNothing();
+	void doSomethind();
+}
+
+class MyClass implements Example, Other{
+
+	@Override
+	public void doNothing() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void doSomethind() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

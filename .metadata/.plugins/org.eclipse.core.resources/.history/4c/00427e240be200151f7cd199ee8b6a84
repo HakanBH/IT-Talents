@@ -1,0 +1,41 @@
+import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class Restourant {
+	private static final int NUMBER_OF_TABLES = 25;
+	private List<Table> tables;
+	private Map<LocalDateTime, Product> orders;
+	private Map<String, List<Product>> menu;
+	
+	public Restourant(){
+		orders = new TreeMap<LocalDateTime, Product>();	
+		tables = new ArrayList<Table>();
+		for(int i=0;i<NUMBER_OF_TABLES;i++){
+			tables.add(new Table());
+		}
+		menu = new TreeMap<String, List<Product>>();
+		menu.put("drink", new LinkedList<Product>((Arrays.asList(new Drink("Whiskey", 5.0),
+				new Drink("Coca-Cola", 2.0), new Drink("Water",1.5), new Drink("Coffee", 2.0)))));
+		menu.put("desert", new LinkedList<Product>(Arrays.asList(new Desert("Ice Cream", 4.0),
+				new Desert("Cake", 5.0))));
+		menu.put("appetizer", new LinkedList<Product>(Arrays.asList(new Appetizer("French fries", 3.0),
+				new Appetizer("Cesar Salad", 4.2))));
+		menu.put("main", new LinkedList<Product>(Arrays.asList(new MainDish("Chicken", 10.0), new MainDish("Beef steak", 15.0),
+				new MainDish("Fish", 12.0))));
+	}
+	
+	public Map<String, List<Product>> getMenu(){
+		Map<String,List<Product>> result;
+		for(String type:menu.keySet()){
+			List<Product> products = Collections.unmodifiableList(menu.get(type));
+			result.put(type, products);
+		}
+		return result;
+	}
+}

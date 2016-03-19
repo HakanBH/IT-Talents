@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 5 elements to &apos;Practice/src/sortingAlgorithms&apos;&#x0D;&#x0A;- Original project: &apos;Practire(Sorting)&apos;&#x0D;&#x0A;- Destination element: &apos;Practice/src/sortingAlgorithms&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     QuickSort.java&#x0D;&#x0A;     BubbleSort.java&#x0D;&#x0A;     Demo.java&#x0D;&#x0A;     SelectionSort.java&#x0D;&#x0A;     CountingSort.java" description="Copy compilation units" destination="=Practice/src&lt;sortingAlgorithms" element1="/src&lt;{QuickSort.java" element2="/src&lt;{BubbleSort.java" element3="/src&lt;{Demo.java" element4="/src&lt;{SelectionSort.java" element5="/src&lt;{CountingSort.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1449831711800" units="5" version="1.0"/>
+</session>

@@ -1,0 +1,17 @@
+
+public interface Harbivore {
+	public void eatPlants();
+}
+
+interface Omnivore {
+	public void eatPlants();
+	default boid func(){
+		System.out.println("Asd");
+	}
+}
+
+class Nqkuf {
+	public Nqkuf() {
+		// TODO Auto-generated constructor stub
+	}
+}

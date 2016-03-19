@@ -1,0 +1,18 @@
+
+public interface Harbivore {
+	public void eatPlants();
+}
+
+interface Omnivore {
+	public void eatPlants();
+}
+
+class Bear implements Omnivore, Harbivore {
+
+	@Override
+	public int eatPlants() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,0 +1,16 @@
+
+public interface Harbivore {
+	public default int eatPlants(){
+		return 1;
+	}
+}
+
+interface Omnivore {
+	public default void eatPlants(){
+		
+	}
+}
+
+class Nqkuf implements Harbivore,Omnivore{
+
+}

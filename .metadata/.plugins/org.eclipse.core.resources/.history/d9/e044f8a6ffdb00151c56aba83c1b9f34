@@ -1,0 +1,40 @@
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.TreeSet;
+
+class Person implements Comparable<Person>{
+	Integer age = new Integer(0);
+	
+	Person(int age){
+		this.age = age;
+	}
+	
+	@Override
+	public int compareTo(Person o) {
+		return this.age-o.age;
+	}
+	
+}
+
+public class IteratorDemo {
+	public static void main(String[] args) {
+		Person a = new Person(12);
+		Person b = new Person(23);
+		
+		TreeSet<Person> set = new TreeSet<Person>();
+		System.out.println(a.compareTo(b));
+		
+		List<String> animals = new LinkedList<String>();
+		animals.add("fox");
+		animals.add("cow");
+		animals.add("dog");
+		animals.add("cat");
+		
+		Iterator<String> animal = animals.iterator();
+		System.out.println(animal.next());
+		System.out.println(animal.next());
+		System.out.println(animal.next());
+		System.out.println(animal.next());
+	}
+}

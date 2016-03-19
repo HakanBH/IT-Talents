@@ -1,0 +1,12 @@
+package mobile.model;
+
+import java.time.LocalDate;
+
+public class Jeep extends MotorVehicle{
+
+	public Jeep(String cond, String brand, String model, String currency, String color, int price, String engine,
+			String gearbox, String category, int mileage, int power, LocalDate date ) {
+		super(cond, brand, model, currency, color, price, engine, gearbox, category, mileage, power, date);
+	}
+	
+}

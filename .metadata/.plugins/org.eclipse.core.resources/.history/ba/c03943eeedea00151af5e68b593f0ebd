@@ -1,0 +1,72 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<title>Mobile.bg - Пазарът за автомобили в България.</title>
+ 	<meta http-equiv = "X-UA-Compatible" content = "IE = edge">
+ 	<meta name = "viewport" content = "width = device-width, initial-scale = 1">
+ 
+ 	<script type="text/javascript" src="yoxview/yoxview-init.js"></script>
+  	<script type="text/javascript" src="yoxview/lang/bg.js"></script>
+	<link href = "css/styles.css" rel="stylesheet">
+	<link href = "css/bootstrap.min.css" rel = "stylesheet">
+
+
+
+</head>
+<body>
+	<header>
+	<div class = "container">
+		<nav class = "navbar navbar-default" style="background-color:white" role = "navigation">
+			<div class="row">
+				<div class="col-md-12">
+					<ul class = "nav nav-justified nav-pills">
+				 	  	<li class="active"><a href="#" >Автомобили</a></li>
+				 	  	<li><a href="#" >Джипове</a></li>
+						<li><a href="#" >Бусове</a></li>
+				 		<li><a href="#" >Камиони</a></li>
+				 		<li><a href="#" >Мотоциклети</a></li>
+				 		<li><a href="#" >Селскостопански</a></li>
+				  	 	<li><a href="#" >Индустриални</a></li>
+				  		<li><a href="#" >Кари</a></li>
+				   		<li><a href="#" >Каравани</a> </li>
+				   		<li><a href="#" >Ремаркета</a></li>
+				   		<li><a href="#" >Велосипеди</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">	
+				<div class = "col-md-5">
+					<a href="#" style = "float:right"> <img alt = "Logo" src="images/logo.png"> </a>
+		 		</div>
+		 		<div class="col-md-7" style="margin-top: 15px;">
+					<div class="row">
+						<form action="Login" method="POST" class="row navbar-form navbar-left form-inline" target="_blank">
+							<input	type="email" name="email" class="form-control" id="email" placeholder="Е-мейл" required
+								oninvalid="this.setCustomValidity('Моля въведете валиден е-мейл.')" oninput="setCustomValidity('')">
+							<input type="password" name="pass" id="pass" class="form-control"  placeholder="Парола" required
+								oninvalid="this.setCustomValidity('Моля въведете парола.')" oninput="setCustomValidity('')" >
+							<input type="submit" class="btn btn-success form-control" value="Вход">
+						</form>
+					</div>
+					<div class="row" style="margin-left: 0px; margin-top:5px;">
+						<ul class="row nav navbar-left nav-pills">
+							<li><a href="main.html">Начало</a>
+							<li class="active"><a href="search.html">Търсене</a>
+							<li><a href="publish.html">Публикуване</a>
+							<li><a href="http://automedia.investor.bg/">Новини</a>
+							<li><a href="#">Форум</a>
+							<li><a href="#">Контакти</a>
+							<li><a href="#">Моето мобиле</a>
+						</ul>
+					</div>
+		  		</div>
+		  	</div>
+		</nav>
+	</div>
+</header>
+</body>
+</html>

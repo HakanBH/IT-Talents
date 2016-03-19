@@ -1,0 +1,39 @@
+final class Demo {
+	int x = 20;
+	private static String a;
+	private static final String b;
+	static{
+		a += "a";
+		b +="b";
+	}
+	{	a += "";}
+	
+	public Demo(int x){
+		System.out.println("x");
+	}
+	
+	public Demo(Integer x)
+	{
+		System.out.println("fff");
+	}
+	
+	public Demo(Object x){
+		System.out.println("asd");
+	}
+	
+	public Demo(int... x){
+		System.out.println("int");
+	}
+	
+	public static void func(int a, int[] i){
+		System.out.println(i.length);
+	}
+	
+	static double func(int a, double c){
+		return 2.0;
+	}
+	
+	public static void main(String[] args) {
+	}
+	
+}
